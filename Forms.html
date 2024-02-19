@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="/server">
+     <div>
+        <label for="username">Username:</label>
+        <input type="text" name="" id="username" placeholder="enter username" name="user">
+     </div>
+
+     <div>
+        <label for="pass">passward:</label>
+        <input type="password" name="" id="pass" placeholder="Enter passward" name="pass">
+     </div>
+     <fieldset>
+        <legend>Select a maitanance dron</legend>
+        <div>
+            <input type="radio" name="gender" id="male" value="male">
+            <label for="male">Male</label>
+        </div>
+        <div>
+            <input type="radio" name="gender" id="female" value="female">
+            <label for="female">Female</label>
+        </div>
+        <div>
+            <input type="radio" name="gender" id="others" value="others">
+            <label for="others">Others</label>
+        </div>
+    </fieldset>
+    <br>
+
+    Choose your subjects:
+    <div>
+        <input type="checkbox" name="subjects" value="Aos">
+        <label for="Aos">Advace operating system</label>
+    </div>
+    <div>
+        <input type="checkbox" name="subjects" value="ppl">
+        <label for="ppl">Principle of programming language</label>
+    </div>
+    <div>
+        <input type="checkbox" name="subjects" value="AI">
+        <label for="AI">Artificial intelligence</label>
+    </div>
+    <br>
+    <div>
+        <label for="profession">Profession: </label>
+        <select name="profession" id="profession">
+            <option value="">---choose your profession</option>
+            <option value="student">student</option>
+            <option value="devoloper" selected>devoloper</option>
+        </select>
+    </div>
+    <br>
+
+    <div>
+        <input type="range" name="skilss" id="skills" min="0%" max="100%" step="2" value="0">
+        <label for="skills">How much you are good at devolopement :</label>
+    </div>
+    <br>
+
+    <div>
+        <label for="feedback">Please provide a valueable feedback </label>
+        <textarea name="feedback" id="feedback" cols="30" rows="6"></textarea>
+    </div>
+
+    <br>
+   
+
+
+    <button type="submit">Submit</button>
+
+    </form>
+    <hr>
+
+    <form action="https://www.youtube.com/results?">
+        <input type="text" name="search_query">  <button>search on youtube</button>
+    </form>
+
+    <hr>
+    <form action="https://www.google.co.in/search?">
+        <input type="text" name="q" id="q" placeholder="google search"> <button>Search</button>
+    </form>
+    <hr>
+
+    <input type="checkbox" name="" id="age">
+    <label for="age">I am 18 +</label>
+
+    <hr>
+   
+    
+</body>
+</html>
